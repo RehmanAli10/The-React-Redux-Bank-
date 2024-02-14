@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { useDispatch } from "react-redux";
-import { createCustomer } from "./customerSlice";
+// import { createCustomer } from "./customerSlice";
+import { createCustomer } from "./customerSlice-RTK";
 
 function Customer() {
   const [fullName, setFullName] = useState("");
